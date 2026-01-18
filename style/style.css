@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  --heading: #414040;
+}
+
 body {
   font-family: "poppins", sans-serif;
   color: #707070;
@@ -14,11 +18,21 @@ h6 {
   font-family: "Eb garamond", serif;
   font-weight: 800;
   line-height: 1.18;
+  color: var(--heading);
+  margin-bottom: 1.5rem;
 }
 
 h1 {
   font-size: 4.5rem;
   color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 .btn {
@@ -33,4 +47,16 @@ h1 {
 
 .btn:hover {
   background-color: hsla(34, 33%, 46%, 1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 4.375rem;
+}
+
+.card:hover {
+  background-image: linear-gradient(to bottom, #f3f3f3, transparent);
 }
