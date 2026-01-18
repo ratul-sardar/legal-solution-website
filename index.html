@@ -1,57 +1,82 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style/style.css" />
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <title>Legal Solution</title>
-    </head>
-    <body class="text-[#707070]">
-        <header class="max-w-[1170px] mx-auto">
-            <nav class="flex justify-between items-center">
-                <img src="./images/logo2.png" alt="brand logo" />
-                <ul class="flex gap-8">
-                    <li><a href="#">Home</a></li>
-                    <li>
-                        <a href="#"
-                            >Services <i class="fa-solid fa-angle-right"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            >Cases <i class="fa-solid fa-angle-right"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            >Blog <i class="fa-solid fa-angle-right"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            >Contact Us <i class="fa-solid fa-angle-right"></i
-                        ></a>
-                    </li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Legal Solution</title>
+  </head>
+  <body class="max-w-[1170px] mx-auto px-6 xl:px-0">
+    <header class="">
+      <nav class="flex justify-between items-center py-[50px] invisible">
+        <img src="./images/logo2.png" alt="brand logo" />
+        <ul class="flex gap-8">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" class="space-x-1"
+              >Services <i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="space-x-1"
+              >Cases <i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="space-x-1"
+              >Blog <i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="space-x-1"
+              >Contact Us <i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+        </ul>
 
-                <button class="px-7 py-5 bg-[hsla(33,39%,53%,1)] rounded-lg">
-                    Free Consultation
-                </button>
-            </nav>
-        </header>
-    </body>
+        <button class="btn">Free Consultation</button>
+      </nav>
+
+      <section
+        id="hero"
+        class="bg-[url('./images/banner.png')] h-full w-full text-center flex flex-col gap-8 items-center rounded-lg py-24"
+      >
+        <div class="max-w-[668px] space-y-6">
+          <h1>We Provide Effective Legal Solutions</h1>
+          <p class="text-white">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <form action="" class="w-full max-w-[668px] flex gap-6">
+          <input
+            type="text"
+            name="search form"
+            placeholder="Search your service"
+            id="searchForm"
+            class="bg-white w-full rounded-lg p-5"
+          />
+          <input type="button" value="Search" class="btn" />
+        </form>
+      </section>
+    </header>
+
+    <main class=""></main>
+  </body>
 </html>

@@ -1,16 +1,36 @@
 @import "tailwindcss";
 
-@layer base {
-    :root {
-        --font-sans: "poppins", ui-sans-serif, system-ui, sans-s;
-        --font-heading: "EB Garamond", serif;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: var(--font-heading);
-    }
+body {
+  font-family: "poppins", sans-serif;
+  color: #707070;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Eb garamond", serif;
+  font-weight: 800;
+  line-height: 1.18;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: white;
+}
+
+.btn {
+  color: white;
+  background-color: hsla(33, 39%, 53%, 1);
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 1.25rem 1.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsla(34, 33%, 46%, 1);
 }
